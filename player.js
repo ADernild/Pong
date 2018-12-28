@@ -32,19 +32,6 @@ this.down = function() {
 this.stp = function() {
         this.acc.y = 0;
     }
-function keyPressed(){
-    if(key == 'w' || keyCode==UP_ARROW){
-        player.up();
-    } else if(key == 'S' || keyCode==DOWN_ARROW){
-        player.down();
-    }
-}
-
-function keyReleased(){
-    if((key == 'W' || keyCode==UP_ARROW) ||(key=='S' || keyCode==DOWN_ARROW)){
-        player.stp();
-    }
-}
     
 
 }
